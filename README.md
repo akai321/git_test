@@ -1,2 +1,1 @@
-# git_test
-hello
+練習git
