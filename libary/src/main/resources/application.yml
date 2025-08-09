@@ -5,7 +5,7 @@ spring:
     # 使用環境變數來讀取，方便 Docker Compose 注入
     url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:library}
     username: ${DB_USER:root}
-    password: ${DB_PASS:SGM945}
+    password: ${DB_PASS:s123456S}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
